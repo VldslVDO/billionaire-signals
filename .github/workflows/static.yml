@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ласкаво просимо!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      font-family: Arial, sans-serif;
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      max-width: 600px;
+    }
+
+    a.button {
+      padding: 15px 30px;
+      background-color: #ffffff;
+      color: #2a5298;
+      font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #2a5298;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Вітаємо!</h1>
+  <p>Переходь до нашого Telegram-каналу, щоб дізнатись більше, отримати бонуси та бути в курсі новин!</p>
+  <a href="https://t.me/твій_канал" class="button" target="_blank">Підписатись</a>
+</body>
+</html>
